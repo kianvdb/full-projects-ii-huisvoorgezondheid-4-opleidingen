@@ -1,0 +1,15 @@
+/*top navigation settings*/
+header {
+    background: #074B78;
+    margin: -1%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.top-navigation {
+    overflow: none;
+    position: relative;
+}

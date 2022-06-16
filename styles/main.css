@@ -1,0 +1,80 @@
+/*Imports from other css files*/
+@import "navigation.css";
+@import "typography.css";
+
+/*Main setup*/
+body {
+    background-color: #BCE5E3;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*Item box and item settings*/
+.item-box {
+    background: #074B78;
+    border-radius: 50px;
+    margin: 5%;
+    padding: 1%
+}
+
+.item {
+    background: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.small {
+    width: 200px;
+    height: 150px;
+}
+
+.border-radius-4 {
+    border-radius: 50px;
+}
+
+.border-radius-2 {
+    border-radius: 0px 0px 50px 50px;
+}
+
+.border-radius-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*background colors*/
+.light-blue {
+    background-color: #BCE5E3;
+}
+
+.dark-blue {
+    background-color: #074B78;
+}
+
+.orange {
+    background-color: #F26522;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+/*rounding class*/
+.round {
+    border-radius: 25pt;
+}

@@ -1,0 +1,114 @@
+/*font import from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+/*font and alignment settings for whole page*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+/*text settings*/
+h1,
+h2,
+h3,
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 40pt;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+h2 {
+    font-size: 35pt;
+}
+
+h3 {
+    font-size: 30pt;
+}
+
+p {
+    font-size: 30pt;
+}
+
+a {
+    font-size: 40pt;
+}
+
+/*button settings*/
+a {
+    border: 2px;
+    padding: 30px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*font weight*/
+.bold {
+    font-family: 'Titillium Web', bold, sans-serif;
+    font-weight: bold;
+}
+
+.regular {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+/*text color*/
+.black-text {
+    color: #000000;
+}
+
+.white-text {
+    color: white;
+}
+
+/*text size*/
+.size28 {
+    font-size: 28pt;
+}
+
+.size24 {
+    font-size: 24pt;
+}
+
+.size20 {
+    font-size: 20pt;
+}
+
+.size16 {
+    font-size: 16pt;
+}
+
+.size14 {
+    font-size: 14pt;
+}
+
+/*text alignment*/
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/*text transform*/
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
